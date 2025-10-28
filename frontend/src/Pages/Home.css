@@ -1,0 +1,83 @@
+.container {
+  background-image: url('../Images/WhatsApp Image 2024-06-10 at 14.30.25_d1ecfdcb.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#one {
+  color: rgb(255, 0, 102);
+  font-size: 6vw; /* Adjust font size based on viewport width */
+}
+
+.card {
+  background-color: rgb(248, 182, 224);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #f7058a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f04fa8;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .card {
+    max-width: 90%; /* Adjust maximum width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #one {
+    font-size: 8vw; /* Adjust font size for smaller screens */
+  }
+}
+.role {
+  background-color: #f7058a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 30px;
+  /* cursor: pointer;
+  color: #007bff; 
+  margin-right: 10px;  */
+}
+
+.role:hover {
+  text-decoration: underline; /* Underline the role text on hover */
+}
+

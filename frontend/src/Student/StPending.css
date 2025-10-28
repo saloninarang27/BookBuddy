@@ -1,0 +1,37 @@
+#def,td,th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  
+}
+#def{
+  width: 160%;
+  margin-top: 30%;
+}
+#ghi{
+  margin-right: 450px;
+  margin-left: -395px;
+}
+.ut{
+  background-color: rgb(255, 0, 102);
+  color: white;
+}
+#def1{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 70%;
+  margin-top: 30%;
+
+}
+#abc{
+  margin-left: 25%;
+  width: 90%;
+}
+#nuy{
+  color: #f6f0f0;
+}
+#tdd{
+  text-decoration: none;
+  color: #000;
+}

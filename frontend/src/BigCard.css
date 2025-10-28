@@ -1,0 +1,15 @@
+.big-card{
+  background-color: white;
+  width: 80%;
+  margin:10%;
+  height: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.formm{
+  margin-top: 5%;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.2);
+  font-size: 80px;
+}
